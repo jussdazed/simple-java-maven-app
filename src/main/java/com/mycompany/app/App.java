@@ -14,8 +14,14 @@ public class App
         System.out.println(new App().getMessage());
     }
 
+    public void infiniteLoopUsingWhile() {
+        while (true) {
+        }
+    }
+
     private final String getMessage() {
         return message;
     }
+
 
 }
